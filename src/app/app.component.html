@@ -1,0 +1,43 @@
+<div id="fullscreen_bg" class="fullscreen_bg"></div>
+<div class="container-fluid no-padding clearfix">
+    <nav class="navbar navbar-default">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" routerLink="auth">ng2-Authentication</a>
+        </div>
+        <div class="collapse navbar-collapse" style="margin-right: 3%;" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a routerLink="profile">Created by Zakaria Sarmini</a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <div [ngSwitch]="status">
+                    <div *ngSwitchCase="true">
+                        <li style="padding-bottom: 10px;padding-top: 10px;">
+                            <a type="submit" class="btn btn-success btn-sm" (click)="logout()">Log out </a>
+                        </li>
+                    </div>
+                    <div *ngSwitchCase="false">
+                        <li routerLinkActive="disabled">
+                            <p>Already have an Account ?
+                                <a type="submit" class="btn btn-success btn-sm" routerLink="signin">Sign in</a>
+                            </p>
+                        </li>
+                    </div>
+                </div>
+            </ul>
+        </div>
+    </nav>
+    <br>
+</div>
+<router-outlet></router-outlet>
+
+
+

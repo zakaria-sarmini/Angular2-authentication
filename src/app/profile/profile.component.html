@@ -1,0 +1,54 @@
+<div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+    <div class="panel panel-info">
+        <div class="panel-heading" style="background-color: #6c4fab">
+            <div class="row panel-title">
+                <div class="col-md-5  toppad">
+                    <p class="white">{{(user | async)?.displayName}}</p>
+                </div>
+                <div class="col-md-5  toppad  pull-right">
+                    <p class="white text-center">{{date | date:'yMMMd'}}</p>
+                </div>
+            </div>
+        </div>
+        <div class="panel-body">
+            <div class="row">
+                <div class="col-md-3 col-lg-3 " align="center">
+                    <img alt="User Pic" src="{{(user | async)?.photoURL}}"
+                         class="img-circle img-responsive">
+                </div>
+                <div class=" col-md-9 col-lg-9 ">
+                    <table class="table table-user-information">
+                        <tbody>
+                        <tr>
+                            <td><h5>Logged in via:</h5></td>
+                            <td [ngSwitch]="provider">
+                                <h5 *ngSwitchCase="3">Google</h5>
+                                <h5 *ngSwitchCase="2">Facebook</h5>
+                                <h5 *ngSwitchDefault>{{(user | async)?.email}}</h5>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><h5>Date of Birth</h5></td>
+                            <td><h5>{{(user | async)?.birth.day}}.{{(user | async)?.birth.month}}.{{(user |
+                                async)?.birth.year}}</h5></td>
+                        </tr>
+                        <tr>
+                        <tr>
+                            <td><h5>Gender</h5></td>
+                            <td><h5>{{(user | async)?.gender}}</h5></td>
+                        </tr>
+                        <tr>
+                            <td><h5>Email</h5></td>
+                            <td><h5><a href="mailto:{{(user | async)?.email}}">{{(user | async)?.email}}</a></h5></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="panel-footer">
+            <br>
+        </div>
+    </div>
+</div>
+

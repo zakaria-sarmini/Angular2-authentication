@@ -1,0 +1,30 @@
+<div class="col-md-4 col-md-offset-4">
+    <div *ngIf="error" class="alert alert-danger ">
+        <a class="close" (click)="emptyMessages()" aria-label="close">&times;</a>
+        <h5>{{error}}</h5>
+    </div>
+    <h4 class="text-center test">────── Sign in Socially ──────</h4><br>
+    <div class="row">
+        <div class="col-md-6 col-xs-6">
+            <div class="socials card-f shadow">
+                <div class="col-sm-12">
+                    <a (click)="login('Facebook')" class="icoSocial" title="Facebook">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-xs-6">
+            <div class="socials card-g shadow">
+                <div class="col-sm-12 card-g">
+                    <a (click)="login('Google')" class="icoSocial" title="Google">
+                        <i class="fa fa-google"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><h4 class="test text-center">────── Or Create Account ─────</h4>
+    <app-manual></app-manual>
+</div>
+

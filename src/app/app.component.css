@@ -1,0 +1,44 @@
+.fullscreen_bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url('app/public/purple-bg.jpg');
+    background-repeat:repeat;
+}
+
+.no-padding {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+li p {
+    color: #fff0ff;
+    margin-top: 4%;
+    font-size: 14px;
+}
+
+li a {
+    font-size: 14px;
+}
+
+.disabled {
+    display: none;
+}
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+

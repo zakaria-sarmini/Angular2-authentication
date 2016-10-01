@@ -1,0 +1,88 @@
+.test{
+    color: white;
+}
+.icoSocial{
+    color:white;
+    display: block;
+    cursor: pointer;
+}
+
+a.icoSocial {
+    vertical-align: middle;
+}
+
+.card-f {
+    background-color:#3C5A99;
+    vertical-align: middle;
+    border-radius: 15px;
+}
+
+.card-g {
+    background-color:#c53727;
+    vertical-align: middle;
+    border-radius: 15px;
+
+}
+
+.shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.socials{
+    border-radius: 15px;
+    font-size: 20px;
+    overflow: hidden;
+    text-align:center;
+    vertical-align: middle;
+}
+.icoSocial:hover i, .triggeredHover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.icoSocial i {
+    color: #fff;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+}
+.social-text{
+    color: transparent;
+    font-size: 14px;
+    margin-top: -10px;
+    font-weight: bold;
+}
+.icoSocial:hover .social-text, .triggeredHover {
+    text-decoration:none;
+    color: #fff;
+    transition: all 0.8s;
+}
+.icoSocial .social-text {transition: all 0.8s;}
+.icoSocial z:before{
+    content:"LIKE US";
+    font-size: 14px;
+    margin-top: -10px;
+    font-weight: bold;
+}
+.socials a:hover, .socials a:visited, .socials a:link, a:active { text-decoration: none; }
+
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
