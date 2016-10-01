@@ -1,6 +1,19 @@
-    # Authentication
+# Features
 
-This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.15.
+-NgModules
+-lazy loading modules
+-routes setup
+-routing with params
+-routes guards
+-template driven forms
+-reactive forms
+-local storage observe
+-angular animations
+-built in & custom validators
+-firebase authentication
+-firebase saving data and getting data with async pipe
+and more...
+
 
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
