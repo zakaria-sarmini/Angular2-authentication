@@ -1,17 +1,17 @@
 # Features
 
--NgModules
--lazy loading modules
--routes setup
--routing with params
--routes guards
--template driven forms
--reactive forms
--local storage observe
--angular animations
--built in & custom validators
--firebase authentication
--firebase saving data and getting data with async pipe
+-NgModules<br>
+-lazy loading modules<br>
+-routes setup<br>
+-routing with params<br>
+-routes guards<br>
+-template driven forms<br>
+-reactive forms<br>
+-local storage observe<br>
+-angular animations<br>
+-built in & custom validators<br>
+-firebase authentication<br>
+-firebase saving data and getting data with async pipe<br>
 and more...
 
 
