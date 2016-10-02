@@ -30,7 +30,7 @@ import {LocalStorageService, LocalStorage} from "ng2-webstorage/index";
         ])
     ]
 })
-export class AuthComponent implements OnInit {
+export class AuthComponent {
 
     @HostBinding('@routeAnimation') get routeAnimation() {
         return true;
@@ -48,7 +48,7 @@ export class AuthComponent implements OnInit {
     @LocalStorage('errMsg')
     public error;
 
-    constructor(private _authService:AuthService, private _route:ActivatedRoute, private _storage: LocalStorageService) {
+    constructor(private _authService:AuthService, private _storage: LocalStorageService) {
     }
 
     login(source:string):void {
@@ -57,10 +57,6 @@ export class AuthComponent implements OnInit {
 
     emptyMessages():void{  //delete error messages
         this._storage.store('errMsg', '');
-    }
-
-    ngOnInit() {
-
     }
 
 }
