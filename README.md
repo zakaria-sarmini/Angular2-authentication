@@ -14,13 +14,20 @@
 -firebase saving data and getting data with async pipe<br>
 and more...
 
+# install
+make sure you have NodeJs and angular-cli installed then run
+```bash
+npm install 
+```
+to run the app 
+```bash
+ng serve 
+```
+then navigate to localhost:4200 with your browser
 
-## Development server
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+# Live Demo
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class`.
+https://authentication-db1da.firebaseapp.com
 
 ## Build
 
@@ -39,6 +46,3 @@ Before running the tests make sure you are serving the app via `ng serve`.
 
 Run `ng github-pages:deploy` to deploy to Github Pages.
 
-## Further help
-
-To get more help on the `angular-cli` use `ng --help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
