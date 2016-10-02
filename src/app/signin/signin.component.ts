@@ -10,12 +10,6 @@ import {Title} from "@angular/platform-browser";
     selector: 'app-signin',
     templateUrl: './signin.component.html',
     styleUrls: ['./signin.component.css'],
-    /*animations: [
-        trigger('routeAnimation', [
-            state('*', style({opacity: 1, transform: 'translateX(0)'})),
-            transition('void => *', [style({opacity: 0, transform: 'translateX(-100%)'}), animate('0.3s ease-in')]),
-            transition('* => void', [animate('0.3s ease-out', style({opacity: 0, transform: 'translateX(-100%)'}))])])
-    ]*/
     animations: [
         trigger('routeAnimation', [
             state('*', style({opacity: 1, transform: 'translateX(0)'})),
