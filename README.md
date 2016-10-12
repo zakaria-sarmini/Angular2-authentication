@@ -1,21 +1,21 @@
 # Features
 
 -NgModules<br>
--lazy loading modules<br>
--routes setup<br>
--routing with params<br>
--routes guards<br>
--template driven forms<br>
--reactive forms<br>
--local storage observe<br>
--angular animations<br>
--built in & custom validators<br>
--firebase authentication<br>
--firebase saving data and getting data with async pipe<br>
+-Lazy loading modules<br>
+-Routes setup<br>
+-Routing with params<br>
+-Routes guards<br>
+-Template driven forms<br>
+-Reactive forms<br>
+-Local storage observe<br>
+-Angular 2 animations<br>
+-Built in & custom validators<br>
+-Firebase authentication<br>
+-Firebase saving data and retrieving data with async pipe<br>
 and more...
 
 # install
-make sure you have NodeJs and angular-cli installed then run
+make sure you have NodeJs and angular-cli installed then cd to ng2-authentication folder and run
 ```bash
 npm install 
 ```
@@ -23,7 +23,7 @@ to run the app
 ```bash
 ng serve 
 ```
-then navigate to localhost:4200 with your browser
+then with your browser, navigate to localhost:4200 
 
 # Live Demo
 
