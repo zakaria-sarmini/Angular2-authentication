@@ -73,11 +73,11 @@ export class ManualComponent implements OnInit {
     validationMessages = {
         'firstname': {
             'required': 'First name field must not be empty...',
-            'pattern': 'First name must contain numbers or special characters...'
+            'pattern': 'First name must not contain numbers or special characters...'
         },
         'lastname': {
             'required': 'Your last name is required...',
-            'pattern': 'Last name must contain numbers or special characters...'
+            'pattern': 'Last name must not contain numbers or special characters...'
         },
         'email': {
             'required': 'Please enter your email address...',
